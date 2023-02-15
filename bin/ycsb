@@ -51,6 +51,7 @@ COMMANDS = {
 }
 
 DATABASES = {
+    "kvpaxos"     : "site.ycsb.db.KVPaxosCli",
     "accumulo1.9"     : "site.ycsb.db.accumulo.AccumuloClient",
     "aerospike"    : "site.ycsb.db.AerospikeClient",
     "arangodb"     : "site.ycsb.db.arangodb.ArangoDBClient",
